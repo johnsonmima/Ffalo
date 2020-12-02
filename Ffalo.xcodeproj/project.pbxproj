@@ -3,28 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41FF3DD10BA378904EF8A24A /* Pods_Ffalo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA1FA3B551E10BDFB441A1F /* Pods_Ffalo.framework */; };
 		945E14EA25730F75005B8C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945E14E925730F75005B8C79 /* AppDelegate.swift */; };
 		945E14EC25730F75005B8C79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945E14EB25730F75005B8C79 /* SceneDelegate.swift */; };
-		945E14EE25730F75005B8C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945E14ED25730F75005B8C79 /* ViewController.swift */; };
 		945E14F125730F75005B8C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945E14EF25730F75005B8C79 /* Main.storyboard */; };
 		945E14F325730F77005B8C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945E14F225730F77005B8C79 /* Assets.xcassets */; };
 		945E14F625730F77005B8C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945E14F425730F77005B8C79 /* LaunchScreen.storyboard */; };
+		945E1505257311AD005B8C79 /* TodoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945E1504257311AD005B8C79 /* TodoListVC.swift */; };
+		945E150925731252005B8C79 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945E150825731252005B8C79 /* K.swift */; };
+		945E150E257475E5005B8C79 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945E150D257475E5005B8C79 /* ItemData.swift */; };
+		94CF7AC9257814AF00108627 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94CF7AC7257814AF00108627 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C7C92369E19DBF717AE98FD /* Pods-Ffalo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ffalo.release.xcconfig"; path = "Target Support Files/Pods-Ffalo/Pods-Ffalo.release.xcconfig"; sourceTree = "<group>"; };
+		5FA1FA3B551E10BDFB441A1F /* Pods_Ffalo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ffalo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A1F704420EF242CF184417 /* Pods-Ffalo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ffalo.debug.xcconfig"; path = "Target Support Files/Pods-Ffalo/Pods-Ffalo.debug.xcconfig"; sourceTree = "<group>"; };
 		945E14E625730F75005B8C79 /* Ffalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ffalo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		945E14E925730F75005B8C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		945E14EB25730F75005B8C79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		945E14ED25730F75005B8C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		945E14F025730F75005B8C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		945E14F225730F77005B8C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		945E14F525730F77005B8C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		945E14F725730F77005B8C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		945E15002573102D005B8C79 /* Ffalo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ffalo.entitlements; sourceTree = "<group>"; };
+		945E1504257311AD005B8C79 /* TodoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListVC.swift; sourceTree = "<group>"; };
+		945E150825731252005B8C79 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		945E150D257475E5005B8C79 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		94CF7AC8257814AF00108627 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +42,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41FF3DD10BA378904EF8A24A /* Pods_Ffalo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F00020959CCAB6DCBCE7770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FA1FA3B551E10BDFB441A1F /* Pods_Ffalo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		945E14DD25730F74005B8C79 = {
 			isa = PBXGroup;
 			children = (
 				945E14E825730F75005B8C79 /* Ffalo */,
 				945E14E725730F75005B8C79 /* Products */,
+				CA85DB2689C286B722528809 /* Pods */,
+				5F00020959CCAB6DCBCE7770 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,16 +78,68 @@
 		945E14E825730F75005B8C79 /* Ffalo */ = {
 			isa = PBXGroup;
 			children = (
+				94FE19422577D17D00711497 /* Data Model */,
+				945E1510257477EC005B8C79 /* Controllers */,
+				945E150C257475D2005B8C79 /* Model */,
+				945E15072573123E005B8C79 /* Utilities */,
+				945E15032573117A005B8C79 /* Views */,
 				945E15002573102D005B8C79 /* Ffalo.entitlements */,
 				945E14E925730F75005B8C79 /* AppDelegate.swift */,
 				945E14EB25730F75005B8C79 /* SceneDelegate.swift */,
-				945E14ED25730F75005B8C79 /* ViewController.swift */,
-				945E14EF25730F75005B8C79 /* Main.storyboard */,
 				945E14F225730F77005B8C79 /* Assets.xcassets */,
 				945E14F425730F77005B8C79 /* LaunchScreen.storyboard */,
 				945E14F725730F77005B8C79 /* Info.plist */,
 			);
 			path = Ffalo;
+			sourceTree = "<group>";
+		};
+		945E15032573117A005B8C79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				945E14EF25730F75005B8C79 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		945E15072573123E005B8C79 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				945E150825731252005B8C79 /* K.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		945E150C257475D2005B8C79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				945E150D257475E5005B8C79 /* ItemData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		945E1510257477EC005B8C79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				945E1504257311AD005B8C79 /* TodoListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		94FE19422577D17D00711497 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				94CF7AC7257814AF00108627 /* DataModel.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		CA85DB2689C286B722528809 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84A1F704420EF242CF184417 /* Pods-Ffalo.debug.xcconfig */,
+				1C7C92369E19DBF717AE98FD /* Pods-Ffalo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 945E14FA25730F77005B8C79 /* Build configuration list for PBXNativeTarget "Ffalo" */;
 			buildPhases = (
+				6A3E54860C926586314E1A70 /* [CP] Check Pods Manifest.lock */,
 				945E14E225730F74005B8C79 /* Sources */,
 				945E14E325730F74005B8C79 /* Frameworks */,
 				945E14E425730F74005B8C79 /* Resources */,
+				6767C641CFDD359F6D62B2DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,14 +209,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6767C641CFDD359F6D62B2DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ffalo/Pods-Ffalo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ffalo/Pods-Ffalo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ffalo/Pods-Ffalo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3E54860C926586314E1A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ffalo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		945E14E225730F74005B8C79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				945E14EE25730F75005B8C79 /* ViewController.swift in Sources */,
 				945E14EA25730F75005B8C79 /* AppDelegate.swift in Sources */,
+				945E150925731252005B8C79 /* K.swift in Sources */,
+				945E1505257311AD005B8C79 /* TodoListVC.swift in Sources */,
+				94CF7AC9257814AF00108627 /* DataModel.xcdatamodeld in Sources */,
 				945E14EC25730F75005B8C79 /* SceneDelegate.swift in Sources */,
+				945E150E257475E5005B8C79 /* ItemData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +405,7 @@
 		};
 		945E14FB25730F77005B8C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A1F704420EF242CF184417 /* Pods-Ffalo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84DZK4GQVB;
 				INFOPLIST_FILE = Ffalo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +428,7 @@
 		};
 		945E14FC25730F77005B8C79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7C92369E19DBF717AE98FD /* Pods-Ffalo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84DZK4GQVB;
 				INFOPLIST_FILE = Ffalo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,6 +471,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94CF7AC7257814AF00108627 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94CF7AC8257814AF00108627 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 94CF7AC8257814AF00108627 /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = ../DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 945E14DE25730F74005B8C79 /* Project object */;
 }
