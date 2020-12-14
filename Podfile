@@ -9,6 +9,8 @@ target 'Ffalo' do
 	pod "RealmSwift"
 	pod "IQKeyboardManagerSwift"
 	pod "KRProgressHUD"
+	pod 'SwipeCellKit'
+	pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon', :branch => 'swift5'
 
 
 		post_install do |pi|

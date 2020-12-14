@@ -7,6 +7,7 @@
 
 import UIKit
 import IQKeyboardManagerSwift
+import RealmSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        
+        //print(Realm.Configuration.defaultConfiguration.fileURL)
         
         return true
     }

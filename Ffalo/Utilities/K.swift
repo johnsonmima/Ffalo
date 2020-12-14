@@ -11,13 +11,21 @@ import Foundation
 struct K {
     
     struct DesignColors {
-        static let bgColor = "bgColor"
-        static let generalColor = "generalColor"
-        static let generalTextColor = "generalTextColor"
+        static let BG_PRIMARY_COLOR = "bgPrimaryColor"
+        static let PRIMARY_TEXT_COLOR = "primaryTextColor"
+     
     }
     
     
-    struct TodoList{
-        static let TodoItemCell = "TodoItemCell"
+    struct SwipeTableView{
+        static let CELL_ID = "CELL_ID"
     }
+    
+    
+    struct SegueIdentifiers {
+        static let TO_ITEMS_VC = "TO_ITEMS_VC"
+    }
+    
+    
+    
 }
